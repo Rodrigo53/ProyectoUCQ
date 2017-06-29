@@ -631,8 +631,6 @@ public class ABC_Usuarios extends javax.swing.JFrame {
             }else if(txt_CorreoI.getText().isEmpty()){
                 JOptionPane.showMessageDialog(null,"Ingrese el Correo Institucional","error",JOptionPane.ERROR_MESSAGE); 
             }else{
-                
-            
             PreparedStatement spt=cn.prepareStatement("INSERT INTO tusuario (Id_Usuario,Nombre_Usuario,Usuario,Clave,Tipo_Usuario,Estatus,Fotografia,Correo_personal,Correo_institucional,Telefono_fijo,Telefono_celular,Carrera) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)");
             spt.setString(1, txt_clave.getText());
             spt.setString(2, txt_Nombre.getText());
@@ -680,7 +678,7 @@ public class ABC_Usuarios extends javax.swing.JFrame {
             txt_Telefono2.setText(tb_usuarios.getValueAt(fila, 8).toString());
             txt_Telefono1.setText(tb_usuarios.getValueAt(fila, 9).toString());
             cmb_carrera.setSelectedItem(tb_usuarios.getValueAt(fila, 10).toString());
-            foto.setIcon(tb_usuarios.getfila, 11));
+      //      foto.setIcon(tb_usuarios.getfila, 11));
                
         }else{
             JOptionPane.showMessageDialog(null,"No se ha seleccionado nada");

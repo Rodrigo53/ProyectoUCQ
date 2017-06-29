@@ -156,7 +156,7 @@ public class Principal_Docente extends javax.swing.JFrame {
     }//GEN-LAST:event_Mn_Asig_docActionPerformed
 
     private void Mn_abc_DocenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Mn_abc_DocenteActionPerformed
-        Horario_docente_coordinador obj = new Horario_docente_coordinador();
+        Horario_Docente obj = new Horario_Docente();
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_Mn_abc_DocenteActionPerformed

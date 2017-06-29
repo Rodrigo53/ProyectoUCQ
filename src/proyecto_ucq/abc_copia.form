@@ -63,7 +63,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jScrollPane1" alignment="0" pref="1199" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" alignment="0" pref="1241" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
@@ -75,31 +75,34 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Btn_Agregar" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btn_guardar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btn_regresa" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Btn_Editar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Component id="nombre_gradoestudios2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="txt_Aux" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Component id="nombre_gradoestudios2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                          <Component id="txt_Aux" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="Btn_Agregar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btn_guardar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn_regresa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Btn_Editar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
-                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" pref="18" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" pref="217" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane1" min="-2" pref="238" max="-2" attributes="0"/>
               <EmptySpace min="-2" max="-2" attributes="0"/>
@@ -221,68 +224,67 @@
                                       <Component id="txt_CorreoP" alignment="1" min="-2" pref="186" max="-2" attributes="0"/>
                                       <Component id="txt_CorreoI" alignment="1" min="-2" pref="186" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
+                                          <Component id="lb_telefono7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                          <Component id="txt_Telefono2" min="-2" pref="186" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="lb_email1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                          <Component id="cmb_tu1" min="-2" pref="189" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
                                           <Component id="nombre_gradoestudios1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                                           <Component id="cmb_estatus" min="-2" pref="189" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" attributes="0">
-                                          <Component id="lb_telefono7" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-                                          <Component id="txt_Telefono2" min="-2" pref="186" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="nombre_gradoestudios3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="nombre_gradoestudios4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="nombre_gradoestudios4" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lb_telefono9" min="-2" max="-2" attributes="0"/>
+                                              <Component id="nombre_gradoestudios3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="cmb_eSTATUS2" min="-2" pref="189" max="-2" attributes="0"/>
                                               <Component id="cmb_carrera" min="-2" max="-2" attributes="0"/>
                                               <Component id="txt_Imagen" alignment="0" min="-2" pref="186" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="lb_email1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                                          <Component id="cmb_tu1" min="-2" pref="189" max="-2" attributes="0"/>
-                                      </Group>
                                   </Group>
                                   <EmptySpace min="-2" max="-2" attributes="0"/>
                                   <Component id="btn_foto" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="txt_Telefono1" min="-2" pref="186" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="lb_telefono9" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="txt_Telefono1" alignment="0" min="-2" pref="186" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Component id="lb_telefono8" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="lb_CorreoP" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="lbfoto" min="-2" pref="175" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="91" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="txt_clave" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txt_Telefono2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="lb_telefono7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txt_clave" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_Telefono2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lb_telefono4" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="lb_telefono4" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lb_telefono7" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
@@ -328,10 +330,7 @@
                                       </Group>
                                   </Group>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="txt_Telefono1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="lb_telefono9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="txt_Telefono1" min="-2" max="-2" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                                           <Component id="lb_telefono6" min="-2" max="-2" attributes="0"/>
@@ -361,13 +360,16 @@
                                       <Component id="nombre_gradoestudios4" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="txt_Imagen" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txt_Imagen" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lb_telefono9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
                       <Component id="lbfoto" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="58" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
