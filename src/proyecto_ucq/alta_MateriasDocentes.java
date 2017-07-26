@@ -96,6 +96,8 @@ public class alta_MateriasDocentes extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
+        tbl_horarios.setDragEnabled(true);
+        tbl_horarios.setDropMode(javax.swing.DropMode.ON_OR_INSERT);
         jScrollPane1.setViewportView(tbl_horarios);
 
         jLabel33.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -136,13 +138,14 @@ public class alta_MateriasDocentes extends javax.swing.JFrame {
 
         jTextField9.setEditable(false);
         jTextField9.setBackground(new java.awt.Color(0, 255, 0));
-        jTextField9.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        jTextField9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
+        jList1.setDragEnabled(true);
         jScrollPane3.setViewportView(jList1);
 
         btn_regresa.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -159,6 +162,7 @@ public class alta_MateriasDocentes extends javax.swing.JFrame {
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
+        jList2.setDragEnabled(true);
         jScrollPane4.setViewportView(jList2);
 
         jLabel34.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
