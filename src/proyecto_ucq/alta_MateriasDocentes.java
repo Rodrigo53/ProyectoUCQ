@@ -1,6 +1,13 @@
 
 package proyecto_ucq;
-
+import java.awt.datatransfer.Transferable;
+import java.awt.dnd.DnDConstants;
+import java.awt.dnd.DragGestureEvent;
+import java.awt.dnd.DragGestureListener;
+import java.awt.dnd.DragSource;
+import java.io.File;
+import java.util.ArrayList;
+import javax.swing.*;
 public class alta_MateriasDocentes extends javax.swing.JFrame {
 
     /**
@@ -89,15 +96,14 @@ public class alta_MateriasDocentes extends javax.swing.JFrame {
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Object.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class, java.lang.Float.class
+                java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
-        tbl_horarios.setDragEnabled(true);
-        tbl_horarios.setDropMode(javax.swing.DropMode.ON_OR_INSERT);
+        tbl_horarios.setDropMode(javax.swing.DropMode.INSERT_ROWS);
         jScrollPane1.setViewportView(tbl_horarios);
 
         jLabel33.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -163,6 +169,7 @@ public class alta_MateriasDocentes extends javax.swing.JFrame {
             public String getElementAt(int i) { return strings[i]; }
         });
         jList2.setDragEnabled(true);
+        jList2.setDropMode(javax.swing.DropMode.ON);
         jScrollPane4.setViewportView(jList2);
 
         jLabel34.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -328,8 +335,9 @@ public class alta_MateriasDocentes extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 4, Short.MAX_VALUE)
                 .addComponent(jLabel24))
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(panel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
